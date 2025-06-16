@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "image": "/images/969.jpg",
+    "title": "Luxury 3 Bedroom Apartment",
+    "location": "Lagos, Nigeria",
+    "price": 50000000,
+    "description": "Spacious apartment with modern amenities and sea view.",
+    "type": "flat"
+  },
+  {
+    "id": 2,
+    "image": "/images/2.jpg",
+    "title": "Cozy 2 Bedroom Flat",
+    "location": "Abuja, Nigeria",
+    "price": 30000000,
+    "description": "Comfortable flat in a quiet neighborhood with good security.",
+    "type": "flat"
+  },
+  {
+    "id": 3,
+    "image": "/images/3.jpg",
+    "title": "Commercial Property for Sale",
+    "location": "Port Harcourt, Nigeria",
+    "price": 70000000,
+    "description": "Prime location commercial building suitable for offices or retail.",
+    "type": "commercial"
+  }
+]

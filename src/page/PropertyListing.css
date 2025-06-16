@@ -1,0 +1,73 @@
+.property-listing-page {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.property-listing-main {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.filters-section {
+  flex: 1;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  height: fit-content;
+}
+
+.properties-section {
+  flex: 3;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.property-summary {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+@media (max-width: 900px) {
+  .property-listing-main {
+    flex-direction: column;
+  }
+
+  .filters-section, .properties-section {
+    width: 100%;
+  }
+}
+
+/* Enhance property card hover */
+.property-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Improve overlay readability */
+.property-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+}
+
+/* Adjust filter buttons */
+.filter-btn {
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #e03e00;
+}
