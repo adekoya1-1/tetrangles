@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import './PropertyHeader.css';
-import { Link } from "react-router";
-import logo from '../../assets/logo.jpg';
+import "./Header.css";
+import { Link } from "react-router-dom";
+import logo from '../assets/logo.jpg';
 
 const PropertyHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

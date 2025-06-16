@@ -5,10 +5,12 @@ import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs.jsx"
 import ProjectsSection from "../components/ProjectsSection/ProjectsSection.jsx"
 import CTASection from "../components/CTASection/CTASection.jsx"
 import ContactSection from "../components/ContactSection/ContactSection.jsx"
+import Header from '../components/Header/Header.jsx'
 
 const Home = () => {
   return (
     <div>
+      <Header/>
       <main>
         <HeroSection />
         <ServicesSection />

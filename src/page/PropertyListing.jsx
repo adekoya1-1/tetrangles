@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import './PropertyListing.css';
-
-import PropertyHeader from '../components/PropertyListing/PropertyHeader/PropertyHeader';
 import QuickFilters from '../components/PropertyListing/QuickFilters/QuickFilters';
 import AdvancedFilters from '../components/PropertyListing/AdvancedFilters/AdvancedFilters';
 import PropertyGrid from '../components/PropertyListing/PropertyGrid/PropertyGrid';
 import properties from '../data/properties.json';
+import Header from '../components/Header/Header';
 
 const PropertyListing = () => {
   const [quickFilter, setQuickFilter] = useState('');
@@ -66,7 +65,7 @@ const PropertyListing = () => {
 
   return (
     <div className="property-listing-page">
-      <PropertyHeader />
+      <Header/>
       <main className="property-listing-main">
         <section className="filters-section">
           <QuickFilters activeFilter={quickFilter} onFilterChange={handleQuickFilterChange} />

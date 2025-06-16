@@ -15,7 +15,9 @@ const HeroSection = () => {
           meticulous attention to detail. With years of experience and a commitment to quality.
         </p>
         <div className="hero-buttons">
-          <button className="btn btn-primary">Get Started</button>
+          <Link to="/contact">
+           <button className="btn btn-primary">Get Started</button>
+          </Link>
           <Link to="/projects">
           <button className="btn btn-outline">View Projects</button>
           </Link>

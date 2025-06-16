@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Project 1",
+    "images": [
+      "/images/2.jpg",
+      "/images/3.jpg",
+      "/images/969.jpg"
+    ]
+  },
+  {
+    "title": "Project 2",
+    "images": [
+      "/images/3.jpg",
+      "/images/969.jpg"
+    ]
+  },
+  {
+    "title": "Project 3",
+    "images": [
+      "/images/969.jpg",
+      "/images/2.jpg",
+      "/images/3.jpg",
+      "/images/969.jpg",
+      "/images/2.jpg",
+      "/images/3.jpg"
+    ]
+  }
+]

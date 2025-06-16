@@ -1,22 +1,9 @@
 import React from 'react';
 import './ProjectsSection.css';
+import projects from '../../data/projects.json';
+import { Link } from 'react-router-dom';
 
 const ProjectsSection = () => {
-  const projects = [
-    {
-      title: 'Project 1',
-      image: '/images/2.jpg',
-    },
-    {
-      title: 'Project 2',
-      image: '/images/3.jpg',
-    },
-    {
-      title: 'Project 3',
-      image: '/images/969.jpg',
-    }
-  ];
-
   return (
     <section className="projects-section">
       <div className="projects-content">
@@ -28,14 +15,16 @@ const ProjectsSection = () => {
         
         <div className="projects-grid">
           {projects.map((project, index) => (
-            <div key={index} className="project-card">
-              <div className="project-image-container">
-                <img src={project.image} alt={project.title} className="project-image" />
-                <div className="project-overlay">
-                  <h3 className="project-title">{project.title}</h3>
+            <Link key={index} to={`/project/${index}`} className="project-card-link">
+              <div className="project-card">
+                <div className="project-image-container">
+                  <img src={project.image} alt={project.title} className="project-image" />
+                  <div className="project-overlay">
+                    <h3 className="project-title">{project.title}</h3>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 

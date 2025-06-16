@@ -18,6 +18,12 @@ const ContactSection = () => {
               <h3>Write To Us</h3>
               <a href="mailto:info@tetrangles.com.ng">info@tetrangles.com.ng</a>
             </div>
+
+            <div className="email-section">
+              <span className="icon">📍</span>
+              <h3>vist Us </h3>
+              <a href="mailto:info@tetrangles.com.ng">Road 26 House 8A Ikota Villa Ikota Lekki Lagos Nigeria </a>
+            </div>
           </div>
         </div>
 

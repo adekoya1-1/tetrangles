@@ -4,24 +4,26 @@ import Home from './page/Home';
 import About from './page/About';
 import Contact from './page/Contact';
 import Project from './page/Project';
+import ProjectDetail from './page/ProjectDetail';
+import Footer from './components/Footer/Footer';
 import PropertyListing from './page/PropertyListing';
+import PropertyDetail from './page/PropertyDetail';
 
 import './App.css';
-import Header from './components/Header/Header';
 
 function App() {
   return (
     <Router>
-      <Header/>
-      <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Project />} />
+          <Route path="/project/:id" element={<ProjectDetail />} />
           <Route path="/property-listing" element={<PropertyListing />} />
+          <Route path="/property/:id" element={<PropertyDetail />} />
         </Routes>
-      </div>
+    <Footer/>
     </Router>
   );
 }

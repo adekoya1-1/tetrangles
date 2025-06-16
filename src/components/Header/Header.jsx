@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { Link } from "react-router";
-import logo from "../assets/logo.jpg"
+import logo from "../assets/logo.png"
 
 
 const Header = () => {
@@ -19,7 +19,7 @@ const Header = () => {
             <Link to="/" className="logo-link">
               <img src={logo} alt="" />
             </Link>
-            <h1 className="logo-text">Tetrangles Project Limited</h1>
+
           </div>
         </div>
 
