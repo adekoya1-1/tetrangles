@@ -5,7 +5,7 @@ const ServicesSection = () => {
   const services = [
     {
       title: 'Building Construction',
-      image: '/images/969.jpg',
+      image: '/images/1.jpg',
     },
     {
       title: 'Construction Project Management',

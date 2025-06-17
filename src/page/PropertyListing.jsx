@@ -88,3 +88,4 @@ const PropertyListing = () => {
 };
 
 export default PropertyListing;
+

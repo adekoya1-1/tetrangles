@@ -5,7 +5,9 @@
   display: flex;
   align-items: center;
   padding: 2rem;
-  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-content {
@@ -15,7 +17,7 @@
 
 .welcome-text {
   color: #FF4500;
-  font-size: 1rem;
+  font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 1rem;
   display: block;
