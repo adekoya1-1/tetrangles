@@ -90,3 +90,55 @@
   font-size: 1.05rem;
   color: #e0e0e0;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    padding: 20px 15px;
+    gap: 30px;
+  }
+
+  .about-left,
+  .about-right {
+    max-width: 100%;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .red-bar {
+    height: 50px;
+    width: 6px;
+    margin-right: 15px;
+  }
+
+  .about-description {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .what-we-do-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .what-we-do-item {
+    gap: 15px;
+    padding: 8px;
+  }
+
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .what-we-do-item strong {
+    font-size: 1rem;
+  }
+
+  .what-we-do-item p {
+    font-size: 0.9rem;
+  }
+}
