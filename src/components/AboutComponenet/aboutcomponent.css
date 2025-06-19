@@ -1,0 +1,90 @@
+
+/* Styles for ACompany and Quote components */
+
+.acompany-container {
+  padding: 40px 60px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.acompany-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #e63946;
+  border-left: 8px solid #e63946;
+  padding-left: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.acompany-text {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.quote-container {
+  background-color: #6e6e6e;
+  color: white;
+  padding: 30px 50px;
+  font-style: italic;
+  font-family: 'Georgia', serif;
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.quote-author {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .acompany-container {
+    padding: 20px 15px;
+    max-width: 100%;
+  }
+
+  .acompany-title {
+    font-size: 2rem;
+    padding-left: 10px;
+  }
+
+  .acompany-text {
+    font-size: 1rem;
+  }
+
+  .quote-container {
+    padding: 20px 25px;
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .quote-text {
+    font-size: 1.3rem;
+  }
+
+  .quote-author {
+    font-size: 1rem;
+  }
+}
